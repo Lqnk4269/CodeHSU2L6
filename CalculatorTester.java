@@ -1,7 +1,6 @@
 public class CalculatorTester {
     public static void main(String[] args) {
-        Calculator newAverage = new Calculator();
-        newAverage.calcAverage(20, 15.4);
-        newAverage.calcAverage(5, 8, 6.4);
+        System.out.println(Calculator.calcAverage(1,2));
+        System.out.println(Calculator.calcAverage(new double[] {5.0, 6.2, 7.5})); // Reduntant
     }
 }
